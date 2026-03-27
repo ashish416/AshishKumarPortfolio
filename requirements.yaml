@@ -1,0 +1,13 @@
+packages:
+  "framer-motion": "For page transitions, scroll-triggered animations, and hero effects"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility function to efficiently merge Tailwind CSS classes"
+  "react-hook-form": "For robust contact form state management and validation"
+  "@hookform/resolvers": "Zod resolver for react-hook-form validation"
+
+images: []
+
+notes:
+  - This is a static SPA portfolio.
+  - The contact form submission is simulated using a mock TanStack Query mutation to demonstrate state handling.
+  - Smooth scrolling is handled via native CSS scroll-behavior on html.
